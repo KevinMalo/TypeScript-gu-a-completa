@@ -18,4 +18,4 @@ TSconfig
 tsc -init
 
 Observar todo
-tsc *.ts -w
+tsc -w
