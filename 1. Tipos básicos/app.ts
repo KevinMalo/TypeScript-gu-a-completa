@@ -30,6 +30,6 @@ function pedir_ayuda(): void {
 }
 
 // Aserciones de Tipo
-let poder: any = 100;
-let largoDelPoder = (<string>poder).length;
+let poder: string = '100';
+let largoDelPoder: number = (<string>poder).length;
 console.log( largoDelPoder );
