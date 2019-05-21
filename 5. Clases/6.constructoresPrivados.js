@@ -1,3 +1,4 @@
+"use strict";
 // Hace que solo sea instanciada una sola vez la clase
 var ViudaNegra = /** @class */ (function () {
     function ViudaNegra(nombre) {

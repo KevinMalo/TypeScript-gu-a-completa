@@ -1,3 +1,4 @@
+"use strict";
 // Las propiedades o metodos estaticos se pueden llamar sin instanciar la clase
 var AntMan = /** @class */ (function () {
     function AntMan() {

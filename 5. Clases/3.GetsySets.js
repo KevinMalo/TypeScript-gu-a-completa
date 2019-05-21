@@ -1,3 +1,4 @@
+"use strict";
 var Iron = /** @class */ (function () {
     function Iron(nombres) {
         this.nombres = nombres;
