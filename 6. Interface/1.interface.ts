@@ -7,6 +7,11 @@ interface Avengers {
     regenerar( nombreReal: string ): void; // regenerar?( nombreReal: string ): void para que sea opcional
 }
 
+// Interface de una funcion
+interface DosNumeros {
+    ( num1: number, num2: number): number
+}
+
 // Interface en una clase
 class BlackPanter implements Avengers {
     nombre: string;
@@ -32,3 +37,8 @@ function enviarMision( avenger :Avengers) {
 }
 
 enviarMision(hulk);
+
+let sumas: DosNumeros;
+sumas = function(a: number,b: number) {
+    return a + b
+}

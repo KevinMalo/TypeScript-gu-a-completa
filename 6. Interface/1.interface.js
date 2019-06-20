@@ -24,3 +24,7 @@ function enviarMision(avenger) {
     avenger.regenerar('Hulk');
 }
 enviarMision(hulk);
+var sumas;
+sumas = function (a, b) {
+    return a + b;
+};
