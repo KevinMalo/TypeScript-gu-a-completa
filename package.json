@@ -1,0 +1,26 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "TypeScript guía completa",
+  "main": "holaMundo.js",
+  "scripts": {
+    "dev": "lite-server --baseDir='./8.-Modulos'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KevinMalo/TypeScript-gu-a-completa.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KevinMalo/TypeScript-gu-a-completa/issues"
+  },
+  "homepage": "https://github.com/KevinMalo/TypeScript-gu-a-completa#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  },
+  "dependencies": {
+    "systemjs": "^0.19.41"
+  }
+}
